@@ -231,21 +231,10 @@ Ini akan membuat URL seperti:
 - **Storefront** - Tema resmi WooCommerce
 - **Astra** - Ringan, banyak fitur
 - **OceanWP** - Flexible, banyak demo
-- **Flavflavor flavour flavor flavor Flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor Flavor flavor flavor Flavor**
-- **flavor**flavor**flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavour flavour flavour flavour flavor flavour flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor
-- **flavour flavor** flavor flavour flavor flavour flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavour flavour flavour flavor flavor flavor flavor flavor flavour flavor flavour flavor flavor flavor flavor flavor
-- **Flavour**flavor**Flavor**flavor**flavor**flavor
 
 #### Tema Gratis Rekomendasi untuk E-Commerce:
 - **Storefront** - Tema resmi WooCommerce (recommended!)
 - **Astra** - Ringan & cepat
-- **flavor flavor** flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavour flavour flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour Flavour Flavor flavor flavor flavour flavor
- flavor **flavour**flavour**flavor flavor flavour flavor flavor flavor flavor flavor flavor**
-
-#### Tema Gratis Rekomendasi untuk E-Commerce:
-- **Storefront** - Tema resmi dari WooCommerce
-- **Astra** - Ringan dan cepat
-- **Flavor**Flavor**Flavour flavour flavour flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor flavor flavor flavor flavor flavour flavor flavour flavour flavor flavor flavor flavour flavor flavor flavor flavor flavor flavor**
 - **OceanWP** - Sangat customizable
 
 ### Menginstall Tema
