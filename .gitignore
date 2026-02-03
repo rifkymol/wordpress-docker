@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# WordPress files
+wordpress/
+
+# Database data
+db_data/
+
+# Mac files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
