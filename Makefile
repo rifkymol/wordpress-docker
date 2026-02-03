@@ -59,11 +59,19 @@ shell-wordpress: ## Open shell in WordPress container
 	docker-compose exec wordpress bash
 
 shell-db: ## Open MySQL shell
-	docker-compose exec db mysql -u root -prootpassword wordpress
+	@if [ -f .env ]; then \
+		. ./.env && docker-compose exec db mysql -u root -p$$DB_ROOT_PASSWORD wordpress; \
+	else \
+		docker-compose exec db mysql -u root -prootpassword wordpress; \
+	fi
 
 backup-db: ## Backup database
 	@echo "Creating database backup..."
-	docker-compose exec db mysqldump -u root -prootpassword wordpress > backup-$(shell date +%Y%m%d-%H%M%S).sql
+	@if [ -f .env ]; then \
+		. ./.env && docker-compose exec db mysqldump -u root -p$$DB_ROOT_PASSWORD wordpress > backup-$(shell date +%Y%m%d-%H%M%S).sql; \
+	else \
+		docker-compose exec db mysqldump -u root -prootpassword wordpress > backup-$(shell date +%Y%m%d-%H%M%S).sql; \
+	fi
 	@echo "Backup created: backup-$(shell date +%Y%m%d-%H%M%S).sql"
 
 restore-db: ## Restore database from backup (usage: make restore-db FILE=backup.sql)
@@ -72,5 +80,9 @@ restore-db: ## Restore database from backup (usage: make restore-db FILE=backup.
 		exit 1; \
 	fi
 	@echo "Restoring database from $(FILE)..."
-	docker-compose exec -T db mysql -u root -prootpassword wordpress < $(FILE)
+	@if [ -f .env ]; then \
+		. ./.env && docker-compose exec -T db mysql -u root -p$$DB_ROOT_PASSWORD wordpress < $(FILE); \
+	else \
+		docker-compose exec -T db mysql -u root -prootpassword wordpress < $(FILE); \
+	fi
 	@echo "Database restored."
