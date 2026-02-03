@@ -2,6 +2,12 @@
 
 A simple Docker-based WordPress development environment perfect for learning and development. This setup includes WordPress, MySQL database, and phpMyAdmin for easy database management.
 
+## 📚 Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get started in 3 simple steps
+- **[Troubleshooting Guide](TROUBLESHOOTING.md)** - Solutions to common issues
+- **Full README** - Complete documentation (below)
+
 ## 🚀 Features
 
 - **WordPress**: Latest version running on Apache
