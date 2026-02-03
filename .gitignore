@@ -2,8 +2,12 @@
 wp-content/uploads/
 wp-content/plugins/
 wp-content/themes/
-!wp-content/themes/index.php
-!wp-content/plugins/index.php
+wp-content/languages/
+wp-content/cache/
+wp-content/upgrade/
+
+# Keep only index.php files
+!wp-content/index.php
 
 # Docker
 *.log
