@@ -1,0 +1,30 @@
+# WordPress
+wp-content/uploads/
+wp-content/plugins/
+wp-content/themes/
+!wp-content/themes/index.php
+!wp-content/plugins/index.php
+
+# Docker
+*.log
+.env
+
+# Node modules (if any)
+node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
