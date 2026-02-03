@@ -430,16 +430,12 @@ dir .\wp-content
 
 ## Quiz Modul 1
 
-1. Apa perbedaan utama Docker container dengan Virtual Machine?
-- Docker adalah platform kontainerisasi ringan yang berbagi kernel OS host, sehingga lebih cepat dan efisien (MB) untuk menjalankan aplikasi. Sebaliknya, Virtual Machine (VM) memvirtualisasikan perangkat keras penuh, menjalankan OS tamu sendiri di atas hypervisor, lebih aman, namun berat (GB). Docker unggul dalam portabilitas dan skala, sedangkan VM cocok untuk isolasi penuh. 
+1. Apa perbedaan utama Docker container dengan Virtual Machine? 
 2. Apa fungsi file `docker-compose.yml`?
-- Docker Compose adalah tool untuk mendefinisikan dan menjalankan **multi-container** Docker applications menggunakan file YAML.
 3. Bagaimana cara melihat container yang sedang berjalan?
-- Menggunakan command `docker ps`
 4. Apa perbedaan named volume dan bind mount?
-- Docker Volume adalah metode yang dikelola penuh oleh Docker, disimpan di direktori khusus Docker (/var/lib/docker/volumes/), dan direkomendasikan untuk produksi karena keamanan serta portabilitas yang lebih baik. Sebaliknya, Bind Mount mengikat file/direktori absolut dari host langsung ke kontainer, lebih fleksibel untuk pengembangan, tetapi bergantung pada struktur sistem file host.
 5. Bagaimana container WordPress berkomunikasi dengan database?
-- Container WordPress berkomunikasi dengan database (biasanya MySQL atau MariaDB) utamanya melalui jaringan internal Docker, di mana WordPress menggunakan nama host container database sebagai alamat host database. Koneksi ini dikonfigurasi melalui variabel lingkungan (environment variables) di dalam file docker-compose.yml atau saat menjalankan perintah docker run. 
+
 
 ---
 
